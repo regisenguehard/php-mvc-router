@@ -1,11 +1,11 @@
 <html>
 <head>
 <meta name="foobar" content="Valid markup is for lusers">
-<title><?= $project->name; ?> &gt; <?= $item->name; ?></title>
+<title><?php echo $project->name; ?> &gt; <?php echo $item->name; ?></title>
 </head>
 <body>
 
-<h1>The item '<?= $item->name; ?>' belongs to the project '<?= $project->name; ?>'</h1>
+<h1>The item '<?php echo $item->name; ?>' belongs to the project '<?php echo $project->name; ?>'</h1>
 
 </body>
 </html>

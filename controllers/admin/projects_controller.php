@@ -8,7 +8,7 @@ class projects_controller extends controller {
 
 	// GET /projects
 	function index() {
-		require_once("views/admin/projects/index.php");
+		require_once(SITE_PATH."/views/admin/projects/index.php");
 		exit;
 	}
 

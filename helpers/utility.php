@@ -2,7 +2,7 @@
 
 function error_404() {
 	header("HTTP/1.0 404 Not Found");
-	include_once("views/404.php");
+	include_once(SITE_PATH."/views/404.php");
 	exit;
 }
 
@@ -22,3 +22,4 @@ function __autoload($class) {
 
 	fatal_error("Cannot find class '$class'");
 }
+

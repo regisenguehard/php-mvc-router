@@ -17,7 +17,7 @@ class friends_controller extends controller {
 		$user = new user($this->parameters['user']);
 		$other_user = new user($this->parameters['friend']);
 		$friend = new friend($user->username,$other_user->username);
-		require_once("views/friends/friend.php");
+		require_once(SITE_PATH."/views/friends/friend.php");
 		exit;
 	}
 
