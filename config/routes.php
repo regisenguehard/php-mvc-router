@@ -1,6 +1,9 @@
 <?php
 $GLOBALS['routes'] = array(
 
+	'/page' => 'page',
+	'/page/(page)' => 'page:voir',
+
 	//Requests to /hello-world will go to the hello_world controller's 'index' action
 	'/hello-world' => 'hello_world',		
 

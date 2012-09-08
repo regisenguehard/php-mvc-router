@@ -27,7 +27,7 @@ class projects_controller extends controller {
 	}
 
 	// GET //projects/1234/items/567
-	function view_item($project,$item) {
+	function view_item($project, $item) {
 		require_once(SITE_PATH."/views/projects/item.php");
 		exit;
 	}

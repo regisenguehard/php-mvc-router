@@ -21,5 +21,13 @@
 <li><a href="/friends/ben/bob">View friend</a></li>
 </ul>
 
+
+
+<ul>
+	<li><a href="/page">Liste des pages</a></li>
+	<li><a href="/page/videos">page : videos</a></li>
+	<li><a href="/page/gallerie">page : gallerie</a></li>
+</ul>
+
 </body>
 </html>

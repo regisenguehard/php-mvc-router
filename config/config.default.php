@@ -1,2 +1,2 @@
 <?php
-define("SITE_PATH","/path/to/site");
+define("SITE_PATH", realpath(dirname(__FILE__).'/../'));
