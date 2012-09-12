@@ -11,15 +11,4 @@ function fatal_error($error) {
 }
 
 
-//automatically load classes from the models folder
-//see -> http://us3.php.net/manual/en/language.oop5.autoload.php
-function __autoload($class) {
-	
-	if (file_exists(SITE_PATH."/models/$class.php")) {
-		require_once(SITE_PATH."/models/$class.php");
-		return;
-	}
-
-	fatal_error("Cannot find class '$class'");
-}
 

@@ -121,7 +121,7 @@ class router {
 		}
 	}
 	
-	static function render_view($class_path,$action) {
+	static function render_view($class_path, $action) {
 		$view_path = SITE_PATH."/views/".$class_path."/".$action.".php";
 		if (file_exists($view_path)) {
 			$controller = new controller();

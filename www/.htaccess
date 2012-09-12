@@ -14,4 +14,3 @@ ErrorDocument 404 /404.php
 #hopefully you aren't still using SVN?!?! :)
 RedirectMatch 404 \.svn/?$
 
-

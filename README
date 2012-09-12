@@ -10,7 +10,8 @@ regis@enguehard.info - http://www.enguehard.info
 
 
 
-Lightweight MVC-router for PHP, with similar setup to the Ruby on Rails router.
+Lightweight MVC-router for PHP, with similar setup to the Ruby on
+Rails router.
 
 THIS IS NOT AN MVC FRAMEWORK FOR PHP!
 
@@ -26,5 +27,6 @@ Ta
 
 Ben
 
-Shameless plug: If you like this, you might also be interested in my Active Record implementation for PHP: 
+Shameless plug: If you like this, you might also be interested in my
+Active Record implementation for PHP: 
 http://allseeing-i.com/FuzzyRecord
